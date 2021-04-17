@@ -1,0 +1,11 @@
+.active-component {
+  background-color: blue;
+}
+
+.main {
+  color: red;
+}
+
+.default {
+  text-decoration: underline;
+}
