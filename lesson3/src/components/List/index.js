@@ -12,7 +12,7 @@ const StyledSubTitle = styled.h2`
 `;
 
 const StyledList = styled.ul`
-  background-color: orange;
+  background-color: blue;
   border: 1px solid brown;
   
 
