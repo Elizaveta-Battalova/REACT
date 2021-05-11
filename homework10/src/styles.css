@@ -1,0 +1,13 @@
+body {
+  text-align: left;
+  background-image: url(https://ae01.alicdn.com/kf/HTB1N9SwcH5YBuNjSspoq6zeNFXaE/-.jpg_q50.jpg);
+}
+input {
+  margin-top: 30px;
+  margin-left: 150px;
+  background: border-box;
+  width: 400px;
+  height: 50px;
+  font-size: 30px;
+  font-weight: 600;
+}
