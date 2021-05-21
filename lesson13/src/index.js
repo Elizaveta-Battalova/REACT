@@ -1,12 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Board from './components/Board/Board';
-import { Provider } from 'react-redux';
-import store from './redux/createStore';
+import { render } from 'react-dom';
+import App from "./App";
 
-ReactDOM.render(
+import { Provider } from './context/ReduxContext';
+import store from './store/index';
+
+render(
   <Provider store={store}>
-    <Board />
+    <App/>
   </Provider>,
   document.getElementById('root')
 );

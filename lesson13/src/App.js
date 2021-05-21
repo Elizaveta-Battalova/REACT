@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Data from "./components/Data";
+
 
 class App extends React.Component {
 
@@ -7,8 +9,6 @@ class App extends React.Component {
     return (
       <div>
         <h1>Крестики-Нолики</h1>
-        <Board />
-        <Square />
       </div>
     );
   }
