@@ -1,10 +1,8 @@
 
 import utils from "./utils";
 
-
-
 const rootReducer = utils.combineReducers({
-   data: dataReducer,
+//    data: dataReducer,
 });
 
 export default rootReducer;

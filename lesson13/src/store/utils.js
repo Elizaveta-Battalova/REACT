@@ -1,5 +1,5 @@
 import React from "react";
-import { render } from "react-dom";
+// import { render } from "react-dom";
 import { ReduxContext} from "../context/ReduxContext";
 
 const createStore = (rootReducer) => {
@@ -76,4 +76,6 @@ const connect = (mapStateToProps, mapDispatchToProps) => (Component) => {
 export default {
     createStore,
     combineReducers,
+    connect,
+    rootReducer
 }
