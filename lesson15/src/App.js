@@ -1,18 +1,26 @@
-import React, { Component } from 'react';
-import './App.css';
-import './TicTacToe.css';
-import Game from './Game.js';
+import React, { useState, useEffect } from 'react';
+import './Square.css';
+import Square from "./Square";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <p className="App-intro">
-          <Game></Game>
-        </p>
-      </div>
-    );
-  }
+
+import { database } from "./firebase";
+
+const App = () => {
+  const[data, setData] = useState({});
+
+  useEffect (() => {
+    database()
+    .ref()
+    .on("value", (snapshot) => {
+      setData(snapshot.val());
+    });
+  }, []);
+
+  return (
+    <div className="App">
+      <Square/>
+    </div>
+  );
 }
 
 export default App;

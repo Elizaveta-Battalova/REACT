@@ -1,10 +1,23 @@
 import React from 'react';
 
-function Square(props){
+class Square extends React.Component {
+	render() {
 		return (
-			<button className="square" onClick={() => props.onClick()}>
-			{props.value}
-			</button>
+		<div>
+			<div className = "navigation">
+				<p>link1</p>
+				<p>link2</p>
+			</div>
+			<div className = "box">
+				<div className = "items">Фитнес-трекер Xiaomi Mi Smart Band 5</div>
+				<div className = "items">Фитнес-трекер Xiaomi Mi Smart Band 5</div>
+				<div className = "items">Фитнес-трекер Xiaomi Mi Smart Band 5</div>
+			</div>
+		</div>
+			
 		)
+	}
 }
+
+
 export default Square;
