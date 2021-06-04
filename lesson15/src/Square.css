@@ -1,35 +1,8 @@
 body {
-    background-color: rgb(178, 245, 245);
+    background-color: rgb(217, 245, 245);
     padding: 20px;
+    text-align: center;
 }
-.box{
-    border: 2px solid black;
-    padding: 10px;
-    width: 200px;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: aquamarine;
-}
-.items{
-    font-size: 20px;
-    color: rgb(4, 62, 255);
-    border: 2px solid black;
-    padding: 10px;
-    margin-bottom: 10px;
-    height: 150px;
-    background-image: url(https://img.mvideo.ru/Pdb/30051510m.jpg);
-}
-
-.navigation{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    border: 2px solid black;
-    margin-bottom: 15px;
-    height: 30px;
-}
-p{
-  padding-left: 250px;
+input{
+    margin: 10px;
 }

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Square.css';
-import Square from "./Square";
+// import { BrouserRouter as Router, Switch, Route } from "react-router-dom;";
+import Form from "./Form/index";
 
 
 import { database } from "./firebase";
@@ -18,7 +19,14 @@ const App = () => {
 
   return (
     <div className="App">
-      <Square/>
+      {/* <Router>
+        <Switch>
+          <Route path="signIn"/>
+          <Route path="signUn"/>
+          <Route path="/"/>
+        </Switch>
+      </Router> */}
+      <Form/>
     </div>
   );
 }
